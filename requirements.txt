@@ -1,0 +1,22 @@
+# Pinned to match the versions the notebook was authored against.
+# create_sql_agent + agent_type="openai-tools" lives in langchain-community 0.3.x.
+langchain==0.3.4
+langchain-community==0.3.3
+langchain-openai==0.2.2
+langsmith
+
+# SQLDatabase wrapper backend
+SQLAlchemy>=2.0,<3.0
+
+# Chinook.db downloader cell
+requests
+
+# Streamlit apps (sql_app.py, sql_agent_app.py)
+streamlit
+
+# API keys via .env instead of getpass()
+python-dotenv
+
+# Notebook runtime
+jupyter
+ipykernel
